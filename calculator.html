@@ -1,0 +1,60 @@
+<!Doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Macon-ay Calculator</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+</style>
+</head>
+<body>
+
+<center>
+<table style="background-color:yellowgreen;", border="4">
+	
+		<tr>
+			<td colspan="4">
+				<input style= "width:198px"  type="text" id="display" placeholder = " Calculate here...">
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<input style= "width:198px" type="text" id="result" placeholder = " Result">
+			</td>
+		</tr>
+	
+		<tr>
+			<td colspan="2"  onclick="reset()"><button style= "width:130px">Clear</button></td>
+			<td onclick= "add('%')"><button style= "width:40px">%</button></td>
+			<td onclick= "add('*')"><button style= "width:40px" >*</button></td>
+		</tr>
+		<tr>
+			<td onclick= "add(1)"><button style= "width:63px">1</button></td>
+			<td onclick= "add(2)"><button style= "width:63px">2</button></td>
+			<td onclick= "add(3)"><button style= "width:40px">3</button></td>
+			<td onclick="add('/')"><button style= "width:40px">/</button></td>
+			
+		</tr>
+		<tr>
+			<td onclick= "add(4)"><button style= "width:63px">4</button></td>
+			<td onclick= "add(5)"><button style= "width:63px">5</button></td>
+			<td onclick= "add(6)"><button style= "width:40px">6</button></td>
+			<td onclick= "add('+')"><button style= "width:40px">+</button></td>
+		</tr>
+		<tr>
+			<td onclick= "add(7)"><button style= "width:63px">7</button></td>
+			<td onclick= "add(8)"><button style= "width:63px">8</button></td>
+			<td onclick= "add(9)"><button style= "width:40px">9</button></td>
+			<td onclick= "add('-')"><button style= "width:40px">-</button></td>
+		</tr>
+		<tr>
+			<td colspan="2" onclick="add(0)"><button style= "width:130px">0</button></td>
+			<td onclick="add('.')"><button style= "width:40px">.</button></td>
+			<td onclick="calculate()"><button style= "width:40px">=</button></td>
+		</tr>
+		
+		
+	</table></center>
+</body>
+</html>
+
+<script src="code.js"> </script>

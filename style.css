@@ -1,0 +1,25 @@
+table {
+	border-collapse: collapse;}
+	radius: 25px;
+		
+td {
+	padding:25px 30px;
+	text-align: center;}
+input{
+	text-align: center;
+	border: none;
+	width: 90%;
+	height:25px;
+	padding:10px;
+	font-size: 22px;
+	font-weight: bold;
+	border-radius: 5px;
+	}
+input:focus {
+	outline:none;
+	}
+
+
+
+}
+		
